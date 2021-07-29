@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "test:async": "jest --watch tests/asynchronous.test.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,8 @@
     "axios": "^0.21.1",
     "jest": "^27.0.6",
     "xmlhttprequest": "1.8.0"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0"
   }
 }
